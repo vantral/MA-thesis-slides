@@ -1,0 +1,499 @@
+\documentclass[12pt,aspectratio=169,t]{beamer}
+\usepackage[english]{babel}
+
+% Presento style file
+\usepackage{config/presento}
+\usepackage[fontset = none]{ctex}
+
+\ctexset{fontset = fandol, space = false}
+
+% custom command and packages
+\input{config/custom-command}
+
+\usepackage{expex}
+\lingset{everygla=\sffamily, belowglpreambleskip=-6pt, aboveglftskip=-12pt, belowexskip=0pt, aboveexskip=0pt, glhangstyle=none, extraglskip=0.25em, interpartskip=0.5ex, numoffset=-0.2ex} % gloss formatting
+\usepackage{leipzig}
+\input{glosses}
+\usepackage{multicol}
+\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}
+\usepackage[LGRgreek,noendash]{mathastext}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\usepackage[parentracker=true,
+backend=biber,natbib,
+hyperref=true,
+bibencoding=utf8,
+maxcitenames=2,
+citestyle=authoryear
+]{biblatex}
+
+\newcommand\Wider[2][10em]{%
+	\makebox[\linewidth][c]{%
+		\begin{minipage}{\dimexpr\textwidth+#1\relax}
+			\raggedright#2
+		\end{minipage}%
+	}%
+}
+
+\usepackage{dirtree}
+
+\usepackage{glossaries}
+\makeglossaries
+
+\setlength{\parskip}{\baselineskip}
+\usepackage{pifont}
+\renewcommand{\'}{\textquotesingle}
+
+\addbibresource{bib.bib}
+
+
+
+% \logo{\includegraphics[height=0.09\textwidth]{images/cumtb}} 
+
+% Information
+\title{\textbf{Typology of Possessive Constructions: Comparison of Head-Marking and Dependent-Marking Patterns}}
+\author{Anton Buzanov}
+\institute{MA Thesis. Linguistic Theory and Language Description}
+\date{June 13}
+
+
+\begin{document}
+
+% Title page
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+
+\begin{frame}{Possessive Constructions}
+    Possessive constructions are defined as comprising two noun phrases: the possessor and the possessum. Their primary function is to convey possessive relationships, which are broadly understood.
+    
+    \begin{multicols}{2}
+    	\ex
+    	\begingl
+    	\glpreamble Russian (Indo-European)//
+    	\gla dom-\o{} otc-a//
+    	\glb house-\Nom.\Sg{} father-\Gen.\Sg{}//
+    	\glft `father\'s house'//
+    	\endgl 
+    	\xe
+    	
+    	\ex
+    	\begingl
+    	\glpreamble Even (Tungusic)//
+    	\gla etiken  ǯu-n//
+    	\glb old.man house-\Poss.\Tsg{}//
+    	\glft `old man\'s house'//
+    	\endgl 
+    	\xe
+    \end{multicols}
+    
+\end{frame}
+
+
+\begin{frame}{Locus of Marking Typology}
+	Based on the specific locus of marking within possessive noun phrases, languages can be distinctly categorized into several groups \citep{nichols_locus_2013,van2016locus,van2016grammaticalization}.
+	
+	\begin{enumerate}
+		\item Head marking (78)
+		\item Dependent marking (98)
+		\item Double marking (22)
+		\item No marking (32)
+		\item Other (6)
+	\end{enumerate}
+	
+	\hfill \small Numbers are from \cite{nichols_locus_2013} (WALS sample).
+\end{frame}
+
+\begin{frame}{Locus of Marking Typology: Key Principle}
+	\cite{nichols_locus_2013} stick to the following principles:
+	
+	\begin{enumerate}
+		\item Selecting one construction per language (exemplar-based survey)
+		\item Excluding constructions that do not allow overtly expressed possessors
+		\item Excluding consideration of personal pronouns if their behaviour is different from nouns
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Locus of Marking Typology: Potential Problems}
+	Mongolian is categorized as dependent marking in terms of \cite{nichols_locus_2013}.
+	
+	\pex
+	\glpreamble Mongolian (Mongolic) from \cite{janhunen_mongolian_2012}//
+	\a
+	\begingl
+	\gla (*min-ii) duu-men'//
+	\glb \Fsg-\Gen{} younger.brother-\Poss.\First//
+	\glft `my younger brother'//
+	\endgl
+	\a
+	\begingl
+	\gla min-ii eej(-*men')//
+	\glb \Fsg-\Gen{} mother-\Poss.\First//
+	\glft `my mother'//
+	\endgl
+	\xe
+\end{frame}
+
+\begin{frame}{Locus of Marking Typology: Potential Problems}
+	Hungarian is categorized as head marking in terms of \cite{nichols_locus_2013}.
+	
+	\excnt=4
+	\ex
+	\begingl
+	\glpreamble Hungarian adapted from \cite[263]{szabolcsi1981possessive}//
+	\gla az én kar-ja-i-m//
+	\glb the I arm-\Poss-\Pl-\Fsg//
+	\glft `my arms'//
+	\endgl
+	\xe
+	
+	\pause
+	\textit{én} is the nominative form: it is used for marking the subject.
+	
+	\pause
+	Is this form truly unmarked? For me, the answer is no. It is \textbf{marked with nominative} since there are other cases in Hungarian.
+\end{frame}
+
+\begin{frame}{Locus of Marking Typology: Potential Problems}
+	In languages with case systems, cross-linguistic variation determines whether a dedicated genitive form (as in Russian), a morphologically unmarked form (nominative -- as in Hungarian), or both (Turkish), can be used to indicate possession.
+	
+	However, from a syntactic perspective, each form is assigned a case value.
+	
+	\pause
+	Thus, the notion of unmarkedness must be rethought here.
+\end{frame}
+
+\begin{frame}{My Approach}
+	The aim of my thesis was to create a metalanguage for a holistic description of possessive constructions in the languages of the world.
+	
+	\vspace{-0.5cm}
+	\hfill {\footnotesize (Thanks to Mikhail Aleksandrovich for a nice wording.)}
+
+	
+\end{frame}
+
+\begin{frame}{My Approach}
+	I did not limit myself to choosing the single construction per language.
+	
+	I employ a bottom-up strategy, initially categorizing markers as either C- or D-marking \citep{lander2020head}, and subsequently classifying a language as a collection of pairs of these markers.
+	
+	\begin{itemize}
+		\item D-markers = dependent markers
+		\item C-markers = anywhere-but-dependent markers (Markers may occupy different places within the whole construction)
+	\end{itemize}
+	
+	 Russian would be characterized as a language featuring several D-markers, such as \Gen{} and possessive forms of (pro)nouns, while lacking any C-markers.
+	 
+\end{frame}
+
+\begin{frame}{My Approach}
+	The overall list of questions is as follows. The answer to each question is ``yes'' if any construction in the language allows it.
+	
+	\begin{enumerate}
+		\item Is juxtaposition possible?
+		\item Can head marking be used without an overt possessor?
+		\item Can head marking be used with an unmarked possessor?
+		\item Can a marked possessor be used with head marking?
+		\item Can a marked possessor be used alongside head marking?
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Applying the Approach}
+	Constructing a \textbf{variety sample} is essential.
+	
+	\pause
+	The aim of a variety sample is to capture a broad spectrum of linguistic patterns with minimal effort, as outlined by \cite{miestamo2016sampling}.
+	
+	\pause
+	
+	Important terms:
+	
+	\vspace{-0.7em}
+	\begin{itemize}
+		\item A \textbf{genus} refers to a grouping of languages with a time depth not exceeding 3,500 to 4,000 years \citep{dryer1989large}.
+		\item \textbf{Macroareas} are continent-size linguistic areas
+		which are independent of each other, but within which languages are to some
+		extent typologically similar (\citealt{miestamo2016sampling} after \citealt{dryer1989large}).
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Applying the Approach}
+	\cite{miestamo2016sampling} suggested the Genus-Macroarea approach for variety sampling.
+	\begin{itemize}
+		\item Count genera in each macroarea
+		\item Take as many languages as you need for your sample keeping the overall Genus-Macroarea proportion
+	\end{itemize}
+	
+\end{frame}	
+\begin{frame}{Applying the Approach}	
+	Problems:
+	\begin{itemize}
+		\item Genera are systematically assigned only in WALS \citep{wals}.
+		\item Merging WALS data with Glottolog data results in coverage of only 28.1\% with genera.
+	\end{itemize}
+	
+	I augmented the number of languages with known genera, so the total is \textbf{75.8}\% (6,506 languages).
+
+\end{frame}
+
+
+\begin{frame}{Sample}
+	I modified the algorithm of automatic sample generation proposed by \cite{cheveleva2023} and came up with the sample of 23 languages.
+	
+	\vspace{-0.5em}
+	\footnotesize
+	\begin{itemize}
+		\item \textbf{Papunesia}: Marind (Marind-Yaqay), To'abaita (Oceanic), Lundayeh (North Borneo), Kobon (Kalam-Kobon), West Coast Bajau (Sama-Bajaw), Iloko (Northern Luzon)
+		\item \textbf{South America}: Chácobo (Panoan), Hup (Nadahup), Yucuna (Japura-Colombia), Kwaza (isolate)
+		\item \textbf{Eurasia}: Even (Tungusic), Kildin Saami (Saami), Abaza (Northwest Caucasian), Russian (Slavic), Mongolian (Mongolic)
+		\item \textbf{North America}: Poqomam (Mayan), Central Alaskan Yupik (Eskimo), Haida (Haida)
+		\item \textbf{Africa}: Ewe (Gbe), Ruund (Bantu), Paku (Barito), Lamang (Biu-Mandara)
+		\item \textbf{Australia}: Ngardi (Western Pama-Nyungan)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Results: Languages with Single Type of Marking}
+	\Wider{
+	\begin{table}[h!]
+		\centering
+		\footnotesize
+		\begin{tabular}{@{}lccccc@{}}
+			\toprule
+			language & juxtaposition & \parbox{1.7cm}{C-marker without possessor} & \parbox{2.35cm}{C-marker with unmarked possessor} & \parbox{1.9cm}{C-marker \& D-marker} & \parbox{2.35cm}{D-marker with unmarked possessum} \\ \midrule
+			Ruund & - & NA & NA & NA & + \\
+			Russian & - & NA & NA & NA & + \\
+			Kwaza & - & NA & NA & NA & + \\
+			Paku & + & + & - & NA & NA \\
+			WC Bajau & + & + & - & NA & NA \\
+			Iloko & + & + & - & NA & NA \\
+			Lamang & - & + & + & NA & NA \\
+			Abaza & - & + & + & NA & NA\\
+			Poqomam & + & + & + & NA & NA \\
+			To'abaita & + & + & + & NA & NA \\
+			Kobon & + & + & + & NA & NA \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+}
+\end{frame}
+
+\begin{frame}{Results: Languages with Single Type of Marking}
+	\begin{itemize}
+		\item Only three languages -- Russian, Ruund, and Kwaza -- do not use any form of C-marking in the possessive domain. These languages do not allow juxtaposition to convey possessive meaning as well.
+		\item No language exclusively allows a C-marker without an overt possessor; instead, juxtaposition and/or using the unmarked possessor are always options.
+		\begin{itemize}
+			\item Some languages allow juxtaposition while disallowing an expressed possessor
+			\item Others disallow juxtaposition but permit an overt possessor
+			\item Some languages allow both.
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Results: Languages with Two Types of Marking}
+	\Wider{
+		\begin{table}[h!]
+			\centering
+			\footnotesize
+			\begin{tabular}{@{}lccccc@{}}
+				\toprule
+				language & juxtaposition & \parbox{1.7cm}{C-marker without possessor} & \parbox{2.35cm}{C-marker with unmarked possessor} & \parbox{1.9cm}{C-marker \& D-marker} & \parbox{2.35cm}{D-marker with unmarked possessum} \\ \midrule
+				Haida & - & + & + & - & + \\
+				Hup & - & + & + & - & + \\
+				CA Yupik & - & + & - & + & + \\
+				Chacobo & - & + & - & + & + \\
+				Kildin Saami & - & + & - & + & + \\
+				Even  & - & + & - & + & - \\
+				Ngardi & - & + & - & - & +\\
+				Marind & + & + & + & + & + \\
+				Mongolian & + & + & - & - & +\\
+				Lundayeh & + & + & - & - & + \\
+				Yucuna & + & + & - & - & + \\
+				Ewe & + & - & + & - & + \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+	}
+\end{frame}
+
+\begin{frame}{Results: Languages with Two Types of Marking}
+	\begin{itemize}
+		\item Typically, languages disallow the use of a C-marker with an unmarked possessor, given that D-marking is present in the language, with two exceptions.
+		
+		\begin{enumerate}
+			\item If a language does not allow a C-marker without an overt possessor, it allows a C-marker with an unmarked possessor.
+			\item If a language disallows both juxtaposition and the expression of both C- and D-markers, it allows a C-marker with an unmarked possessor.
+		\end{enumerate}
+		
+		\item Typically, languages allow using  D- and C-markers to function on their own at least for some lexemes or constructions.
+		
+		\pause
+		
+		\begin{itemize}
+			\item Two exceptions are Even and Ewe (don't mix up the two!!).
+		\end{itemize}
+		
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Further Work}
+	\begin{itemize}
+		\item Incorporate the data on indexing and registration at more general level.
+		\begin{itemize}
+			\item Some patterns could be described with reference to this distinction.
+			\item However, it might be a part of some other phenomenon, e.~g. the ability to identify features of a participant from the context.
+		\end{itemize}
+		\item Investigate the juxtaposition strategy in more detail.
+		\begin{itemize}
+			\item Juxtaposition in my sample is treated inconsistently.
+			\item Perhaps, it must be seen as an instance of head or dependent marking.
+		\end{itemize}
+		\item Make a larger sample
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusions}
+	\small
+	\begin{itemize}
+		\setlength{\itemsep}{0pt}
+		\item Primary set of criteria for systematic annotation of possessive constructions.
+		\item Expanded Glottolog classifications using WALS data, annotating over 6,000 languages.
+		\item Selected 23 genera for a pilot sample using the Genus-Macroarea method.
+		\item Manually described the possessive system for one language from each genus.
+		\item Identified spectrum of marking strategies.
+		\item Analysis underscores the complexity and diversity of possessive marking strategies.
+		\item Trends identified provide a foundation for future statistical analyses on larger samples.
+	\end{itemize}
+\end{frame}
+
+\setbeamertemplate{frametitle continuation}
+
+\begin{frame}[allowframebreaks,t]{References}
+    \printbibliography
+\end{frame}
+
+\begin{frame}{My Approach: Problems with Juxtaposition}
+	I acknowledge that my understanding of juxtaposition is inconsistent throughout my thesis. However, the concept itself might be problematic and requires a lot of further investigation.
+	
+	\textsc{possessor + possessum} is considered juxtaposition if both the possessor and the possessum are morphologically unmarked, and one of the following conditions is met:
+	
+	\begin{itemize}
+		\item The language does not have cases.
+		\item There is an option to morphologically mark the possessor.
+	\end{itemize}
+	
+\end{frame}
+
+
+\begin{frame}{Applying the Approach}
+	\begin{columns}
+		\column{0.7\textwidth}
+		\begin{itemize}
+			\item Genera are systematically assigned only in WALS \citep{wals}.
+			\item Merging WALS data with Glottolog data results in coverage of only 28.1\% with genera.
+			\item There is potential to increase the number of languages with known genera.
+		\end{itemize}
+		
+		\column{0.3\textwidth}
+		\pause
+		
+		\dirtree{%
+			.1 X$_1$.
+			.2 X$_2$.
+			.3 X$_3$.
+			.3 X$_4$.
+			.3 \textcolor{red}{X$_5$}.
+			.2 X$_6$.
+			.3 \textcolor{red}{X$_7$}.
+			.3 X$_8$.
+		}
+		
+	\end{columns}
+	
+	\pause
+	
+	After implementing the algorithm and accounting for isolates not included in WALS, the coverage increased significantly to \textbf{75.8} percent. In practical terms, this means that I successfully annotated \textbf{6,506} languages from Glottolog with their respective genera.
+	
+\end{frame}
+
+\begin{frame}{Algorithm}
+	
+	\begin{itemize}
+		\item Modified the algorithm proposed by \cite{cheveleva2023}.
+		\item Retained automatic suggestion of genera but introduced a more manual selection process.
+		\item Algorithm now suggests genera for closer examination, empowering linguists in language selection.
+		\item Created individual tables for each genus:
+		\begin{itemize}
+			\item Lengths of available grammars.
+			\item Rationale for assigning languages to specific genera.
+		\end{itemize}
+		\item Included details on:
+		\begin{itemize}
+			\item Common ancestor when assigning based on related languages.
+			\item Related languages for languages sharing a common ancestor.
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Ewe}
+	Ewe possessive constructions can be expressed through several methods:
+	
+	\begin{itemize}
+		\item \textbf{Possessive Linker}: This method involves a possessive linker \textit{fe}, and is used in the `alienable nominal construction' where the structure is NP$_{possessor}$ fe NP$_{possessum}$.
+		\item \textbf{Juxtaposition}: This method, known as the `inalienable nominal construction', also follows the structure NP$_{possessor}$ NP$_{possessum}$ without any connective.
+		
+		\item \textbf{Syntactic Compounding}: In this structure, the two nominals are compounded and marked with a high tone suffix at the end: N$_{possessor}$-N$_{possessum}$ + HIGH TONE SUFFIX.
+	\end{itemize}
+	
+\end{frame}
+
+
+\begin{frame}{Kwaza}
+	The possessor -- the modifier in the Kwaza possessive construction -- is a personal pronoun or a noun. These constructions require a derivational possessive morpheme \textit{-dy-}, which must be applied to the possessor and which must be followed by a classifier, usually the nominaliser \textit{-hy}, which functions as a semantically neutral classifier, as exemplified in (\ref{buttock}).
+	
+	\ex
+	\begingl\label{buttock}
+	\gla 'si-dy-hy ecui'ri //
+	\glb I-POS-NOM buttock //
+	\glft `my buttock' //
+	\endgl
+	\xe
+
+\end{frame}
+
+\begin{frame}{Kwaza}
+	Sometimes a choice is possible between a Neutral or a more specific classifier. When the specific classifier is etymologically related to the referent it classifies, the referent may be omitted, as in (\ref{omitted}), as if the classifier were a cross-reference morpheme.
+	
+	\ex
+	\begingl \label{omitted}
+	\gla (a'xy) 'si-dy-xy //
+	\glb (house) I-POS-CL:house //
+	\glft `my house' //
+	\endgl
+	\xe
+	
+	This is the only language in the sample that allows for omitting the possessum. From one hand, it could be analyzed in a way that the classifier morpheme is the possessum itself; however, it seems odd for me.
+\end{frame}
+
+\begin{frame}[allowframebreaks,t]{Other Parameters}
+	\small 
+	There are three other parameters that worth mentioning:
+	
+	\begin{enumerate}
+		\item Indexation properties: C-markers often vary based on the $\phi$-features of the possessor, while D-markers typically do not.
+		\item Omission properties: C-markers can be used with omitted possessors, whereas D-markers cannot be used with omitted possessums.
+		\item Reflexive properties: Reflexive C-markers are rarely found.
+	\end{enumerate}
+	
+	
+	C-markers typically express the person value of the possessor, often reflecting number as well, i.~e. they are indexing. Among languages in the sample, only three languages have invariable C-markers: Ewe, Ngardi, and Haida. However, in Ngardi and Haida, these markers are almost always used in contexts of third-person reference, except when the possessor is obvious from the previous context. This implies that these markers are \textit{almost} indexing.
+	
+	In contrast, D-markers are almost never indexing but rather registering. Among the languages in the sample, only Ruund and Kwaza have indexing D-marking strategies, both employing possessive classifiers.
+	
+	This difference leads to distinct patterns for C- and D-markers. Almost all C-markers can be used without an explicitly mentioned possessor, as they already index all its features. Conversely, only one D-marker can be used without an overt possessum: the one in Kwaza. Furthermore, possessums cannot be easily dropped without altering the distribution of the entire noun phrase since they are the heads. While it's possible to form a headless possessive noun phrase in contexts of ellipsis or predicative possession, I have not found mentions of omitting the possessum without changes in distribution or semantics for any language except Kwaza.
+	
+\end{frame}
+
+\end{document}
