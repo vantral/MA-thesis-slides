@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.9)  12 JUN 2024 19:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.9)  12 JUN 2024 23:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2182,7 +2182,7 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [4
 
 ]
-Overfull \vbox (8.21768pt too high) detected at line 137
+Overfull \vbox (8.12364pt too high) detected at line 137
  []
 
 
@@ -2193,10 +2193,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [5
 
 ]
-Overfull \vbox (8.66585pt too high) detected at line 157
- []
-
-
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2204,10 +2200,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [6
 
 ]
-Overfull \vbox (8.66585pt too high) detected at line 157
- []
-
-
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2215,10 +2207,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \vbox (8.66585pt too high) detected at line 157
- []
-
-
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2233,6 +2221,11 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [9
 
 ]
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting on input line 220.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting on input line 220.
+
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2240,6 +2233,11 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [10
 
 ]
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting on input line 220.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting on input line 220.
+
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2247,6 +2245,11 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [11
 
 ]
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting on input line 220.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting on input line 220.
+
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2261,11 +2264,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [13
 
 ]
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 220.
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 220.
-
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2273,10 +2271,9 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [14
 
 ]
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 220.
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 220.
+Overfull \vbox (0.70581pt too high) detected at line 256
+ []
+
 
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
@@ -2285,10 +2282,25 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [15
 
 ]
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 220.
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 220.
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+[]\TU/NotoSans-Regular(1)/m/n/10 C-marker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+\TU/NotoSans-Regular(1)/m/n/10 without
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+\TU/NotoSans-Regular(1)/m/n/10 unmarked
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+\TU/NotoSans-Regular(1)/m/n/10 unmarked
+ []
+
 
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
@@ -2304,6 +2316,30 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [17
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]\TU/NotoSans-Regular(1)/m/n/10 C-marker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\TU/NotoSans-Regular(1)/m/n/10 without
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\TU/NotoSans-Regular(1)/m/n/10 unmarked
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\TU/NotoSans-Regular(1)/m/n/10 unmarked
+ []
+
+
+Overfull \vbox (5.82806pt too high) detected at line 319
+ []
+
+
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2311,10 +2347,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \vbox (0.64577pt too high) detected at line 256
- []
-
-
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2322,26 +2354,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[]\TU/NotoSans-Regular(1)/m/n/10 C-marker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-\TU/NotoSans-Regular(1)/m/n/10 without
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-\TU/NotoSans-Regular(1)/m/n/10 unmarked
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-\TU/NotoSans-Regular(1)/m/n/10 unmarked
- []
-
-
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2356,27 +2368,7 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]\TU/NotoSans-Regular(1)/m/n/10 C-marker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-\TU/NotoSans-Regular(1)/m/n/10 without
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-\TU/NotoSans-Regular(1)/m/n/10 unmarked
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-\TU/NotoSans-Regular(1)/m/n/10 unmarked
- []
-
-
-Overfull \vbox (5.77388pt too high) detected at line 319
+Overfull \vbox (9.22826pt too high) detected at line 369
  []
 
 
@@ -2385,38 +2377,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
  []
 
 [22
-
-]
-Overfull \hbox (1.61269pt too wide) has occurred while \output is active
-[]$[]$ $[]$ $[]$[][] 
- []
-
-[23
-
-]
-Overfull \hbox (1.61269pt too wide) has occurred while \output is active
-[]$[]$ $[]$ $[]$[][] 
- []
-
-[24
-
-]
-Overfull \hbox (1.61269pt too wide) has occurred while \output is active
-[]$[]$ $[]$ $[]$[][] 
- []
-
-[25
-
-]
-Overfull \vbox (9.23705pt too high) detected at line 369
- []
-
-
-Overfull \hbox (1.61269pt too wide) has occurred while \output is active
-[]$[]$ $[]$ $[]$[][] 
- []
-
-[26
 
 ]
 
@@ -2451,23 +2411,64 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
 
+[23
+
+]
+Overfull \hbox (1.61269pt too wide) has occurred while \output is active
+[]$[]$ $[]$ $[]$[][] 
+ []
+
+[24
+
+
+]
+Overfull \hbox (1.61269pt too wide) has occurred while \output is active
+[]$[]$ $[]$ $[]$[][] 
+ []
+
+[25
+
+
+]
+Overfull \hbox (1.61269pt too wide) has occurred while \output is active
+[]$[]$ $[]$ $[]$[][] 
+ []
+
+[26
+
+
+]
+Overfull \vbox (10.65787pt too high) detected at line 395
+ []
+
+
+Overfull \hbox (1.61269pt too wide) has occurred while \output is active
+[]$[]$ $[]$ $[]$[][] 
+ []
+
 [27
 
 ]
+Overfull \vbox (10.65787pt too high) detected at line 395
+ []
+
+
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
 
 [28
 
-
 ]
+Overfull \vbox (10.65787pt too high) detected at line 395
+ []
+
+
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
 
 [29
-
 
 ]
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
@@ -2475,7 +2476,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
  []
 
 [30
-
 
 ]
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
@@ -2527,10 +2527,6 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [37
 
 ]
-Overfull \vbox (11.1624pt too high) detected at line 478
- []
-
-
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2538,6 +2534,10 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 [38
 
 ]
+Overfull \vbox (11.1624pt too high) detected at line 507
+ []
+
+
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
@@ -2551,13 +2551,20 @@ Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 
 [40
 
-
 ]
 Overfull \hbox (1.61269pt too wide) has occurred while \output is active
 []$[]$ $[]$ $[]$[][] 
  []
 
 [41
+
+
+]
+Overfull \hbox (1.61269pt too wide) has occurred while \output is active
+[]$[]$ $[]$ $[]$[][] 
+ []
+
+[42
 
 
 ]
@@ -2592,12 +2599,12 @@ Package logreq Info: Writing requests to 'presento.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51189 strings out of 474705
- 1055562 string characters out of 5759833
+ 51196 strings out of 474705
+ 1055688 string characters out of 5759833
  1937406 words of memory out of 5000000
- 72511 multiletter control sequences out of 15000+600000
+ 72518 multiletter control sequences out of 15000+600000
  576215 words of font info for 148 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,17n,123p,2351b,5567s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on presento.pdf (41 pages).
+Output written on presento.pdf (42 pages).
